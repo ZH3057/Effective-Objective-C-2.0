@@ -15,6 +15,10 @@
 		BF735DB42137CA1C00DD77BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DB32137CA1C00DD77BE /* main.m */; };
 		BF735DBE2137CA1C00DD77BE /* EffectiveObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DBD2137CA1C00DD77BE /* EffectiveObjectiveCTests.m */; };
 		BF735DC92137CA1C00DD77BE /* EffectiveObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DC82137CA1C00DD77BE /* EffectiveObjectiveCUITests.m */; };
+		BF735DD921393CD000DD77BE /* UIViewController+Life.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DD821393CD000DD77BE /* UIViewController+Life.m */; };
+		BF735DDC21393F3900DD77BE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DDB21393F3900DD77BE /* AViewController.m */; };
+		BF735DDF21393F4500DD77BE /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DDE21393F4500DD77BE /* BViewController.m */; };
+		BF735DE221393F5200DD77BE /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DE121393F5200DD77BE /* CViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		BF735DC42137CA1C00DD77BE /* EffectiveObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF735DC82137CA1C00DD77BE /* EffectiveObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectiveObjectiveCUITests.m; sourceTree = "<group>"; };
 		BF735DCA2137CA1C00DD77BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF735DD721393CD000DD77BE /* UIViewController+Life.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Life.h"; sourceTree = "<group>"; };
+		BF735DD821393CD000DD77BE /* UIViewController+Life.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Life.m"; sourceTree = "<group>"; };
+		BF735DDA21393F3900DD77BE /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		BF735DDB21393F3900DD77BE /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		BF735DDD21393F4500DD77BE /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		BF735DDE21393F4500DD77BE /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		BF735DE021393F5200DD77BE /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		BF735DE121393F5200DD77BE /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				BF735DA52137CA1A00DD77BE /* AppDelegate.m */,
 				BF735DA72137CA1A00DD77BE /* ViewController.h */,
 				BF735DA82137CA1A00DD77BE /* ViewController.m */,
+				BF735DD721393CD000DD77BE /* UIViewController+Life.h */,
+				BF735DD821393CD000DD77BE /* UIViewController+Life.m */,
+				BF735DDA21393F3900DD77BE /* AViewController.h */,
+				BF735DDB21393F3900DD77BE /* AViewController.m */,
+				BF735DDD21393F4500DD77BE /* BViewController.h */,
+				BF735DDE21393F4500DD77BE /* BViewController.m */,
+				BF735DE021393F5200DD77BE /* CViewController.h */,
+				BF735DE121393F5200DD77BE /* CViewController.m */,
 				BF735DAA2137CA1A00DD77BE /* Main.storyboard */,
 				BF735DAD2137CA1C00DD77BE /* Assets.xcassets */,
 				BF735DAF2137CA1C00DD77BE /* LaunchScreen.storyboard */,
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF735DA92137CA1A00DD77BE /* ViewController.m in Sources */,
+				BF735DDF21393F4500DD77BE /* BViewController.m in Sources */,
+				BF735DDC21393F3900DD77BE /* AViewController.m in Sources */,
 				BF735DB42137CA1C00DD77BE /* main.m in Sources */,
+				BF735DD921393CD000DD77BE /* UIViewController+Life.m in Sources */,
 				BF735DA62137CA1A00DD77BE /* AppDelegate.m in Sources */,
+				BF735DE221393F5200DD77BE /* CViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
