@@ -19,6 +19,7 @@
 		BF735DDC21393F3900DD77BE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DDB21393F3900DD77BE /* AViewController.m */; };
 		BF735DDF21393F4500DD77BE /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DDE21393F4500DD77BE /* BViewController.m */; };
 		BF735DE221393F5200DD77BE /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DE121393F5200DD77BE /* CViewController.m */; };
+		BF7E92D8213A508800D13B9A /* NSTimer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E92D7213A508800D13B9A /* NSTimer+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		BF735DDE21393F4500DD77BE /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		BF735DE021393F5200DD77BE /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
 		BF735DE121393F5200DD77BE /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		BF7E92D6213A508800D13B9A /* NSTimer+Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Block.h"; sourceTree = "<group>"; };
+		BF7E92D7213A508800D13B9A /* NSTimer+Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				BF735DA82137CA1A00DD77BE /* ViewController.m */,
 				BF735DD721393CD000DD77BE /* UIViewController+Life.h */,
 				BF735DD821393CD000DD77BE /* UIViewController+Life.m */,
+				BF7E92D6213A508800D13B9A /* NSTimer+Block.h */,
+				BF7E92D7213A508800D13B9A /* NSTimer+Block.m */,
 				BF735DDA21393F3900DD77BE /* AViewController.h */,
 				BF735DDB21393F3900DD77BE /* AViewController.m */,
 				BF735DDD21393F4500DD77BE /* BViewController.h */,
@@ -284,6 +289,7 @@
 			files = (
 				BF735DA92137CA1A00DD77BE /* ViewController.m in Sources */,
 				BF735DDF21393F4500DD77BE /* BViewController.m in Sources */,
+				BF7E92D8213A508800D13B9A /* NSTimer+Block.m in Sources */,
 				BF735DDC21393F3900DD77BE /* AViewController.m in Sources */,
 				BF735DB42137CA1C00DD77BE /* main.m in Sources */,
 				BF735DD921393CD000DD77BE /* UIViewController+Life.m in Sources */,
